@@ -296,22 +296,20 @@ exports.grouplist = [
 		jurisdiction: 'u'
 	},
 	{
-		symbol: '=',
-		id: "subdriver",
-		name: "Subdriver",
-		inherit: '+',
+
+
+               symbol: '☎'
+		id: "leader",
+		name: "Leader",
+		inherit: '@',
 		jurisdiction: 'u',
-		warn: true,
-		kick: true,
-		mute: true,
-		lock: true,
-		forcerename: true,
-		timer: true,
-		modlog: true,
-		bypassblocks: 'u%@&~',
-		receiveauthmessages: true,
-		tournamentsmoderation: true,
-		jeopardy: true
+		roommod: true,
+		roomdriver: true,
+		roomsubdriver: true,
+		roomonly: true,
+		tournamentsmanagement: true,
+		rmall: true
+               
 	},
 	{
 		symbol: '+',
@@ -325,6 +323,22 @@ exports.grouplist = [
 		ignorelimits: true,
 		poll: true,
 		joinbattle: true
+	},
+	{
+		
+		symbol: '♫',
+		id: "dj",
+		name: "DJ",
+		inherit: ' ',
+		tournaments: true,
+		voicetourmoderation: true,
+		declare: true,
+		announce: true,
+		ignorelimits: true,
+		poll: true,
+		joinbattle: true
+		warn: true,
+		mute: true,
 	},
 	{
 		symbol: '\u2605',
