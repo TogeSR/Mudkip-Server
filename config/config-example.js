@@ -653,6 +653,8 @@ exports.grouplist = [
 		ignorelimits: true,
 		poll: true,
 		joinbattle: true
+		warn: true,
+		mute: true,
 	},
 	{
 	
